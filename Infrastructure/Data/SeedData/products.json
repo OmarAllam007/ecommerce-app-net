@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Must Have T-Shirt",
+    "Description": "Must Have T-Shirt",
+    "Price": 100,
+    "PictureUrl": "https://f.nooncdn.com/p/pzsku/Z698C6ADC072AB8D18BFBZ/45/_/1691941392/510c68ae-ee82-4494-8798-bed0bd9fa414.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Linear Printed Crew Neck T-Shirt Red/White",
+    "Description": "Linear Printed Crew Neck T-Shirt Red/White",
+    "Price": 120,
+    "PictureUrl": "https://f.nooncdn.com/p/v1635325383/N51598371V_1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Squad 21 T-Shirt",
+    "Description": "Squad 21 T-Shirt",
+    "Price": 170,
+    "PictureUrl": "https://f.nooncdn.com/p/pzsku/ZB80314515A1594A7317BZ/45/_/1679499475/734a716c-2ff1-4935-b245-e008cdd1cb3f.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  }
+]
