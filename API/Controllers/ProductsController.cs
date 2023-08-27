@@ -29,4 +29,20 @@ public class ProductsController:ControllerBase
     {
         return await _repository.GetProductByIdAsync(id);
     }
+    
+    [HttpGet("brands")]
+    public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetAllBrands()
+    {
+        var brands = await _repository.GetProductBrandsAsync();
+
+        return Ok(brands);
+    }
+    
+    [HttpGet("types")]
+    public async Task<ActionResult<IReadOnlyList<ProductType>>> GetAllTypes()
+    {
+        var types = await _repository.GetProductTypesAsync();
+
+        return Ok(types);
+    }
 }
