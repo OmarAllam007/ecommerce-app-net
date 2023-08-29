@@ -1,11 +1,16 @@
 using System.Linq.Expressions;
 using Core.Interfaces;
 
-namespace Infrastructure.Data.Repositories;
+namespace Core.Specifications;
 
 public class BaseSpecification<T> : ISpecification<T>
 {
-    public BaseSpecification(Expression<Func<T, bool>> criteria)
+    protected BaseSpecification()
+    {
+        
+    }
+
+    protected BaseSpecification(Expression<Func<T, bool>> criteria)
     {
         Criteria = criteria;
     }
